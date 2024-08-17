@@ -1,0 +1,74 @@
+.educationsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 35vh;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.educationsHero {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.educationsInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+.educationsList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.educationsItem {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.educationsItem:last-child {
+  border-bottom: none;
+}
+
+.educationsTechList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.educationsTechList li {
+  margin-bottom: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 800px) {
+ .educationsContainer {
+    padding: 10px;
+  }
+ .educationsHero {
+    max-width: 150px;
+  }
+ .educationsInfo {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+ .educationsContainer {
+    padding: 5px;
+  }
+ .educationsHero {
+    max-width: 100px;
+  }
+ .educationsInfo {
+    gap: 5px;
+  }
+}

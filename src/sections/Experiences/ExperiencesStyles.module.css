@@ -1,0 +1,78 @@
+.experiencesContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 20vh;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+
+.experiencesHero {
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.experiencesInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+}
+
+.experiencesList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experiencesItem {
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.experiencesItem:last-child {
+  border-bottom: none;
+}
+
+.experiencesTechList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.experiencesTechList li {
+  margin-bottom: 10px;
+}
+
+/* Responsividade */
+@media (max-width: 800px) {
+ .experiencesContainer {
+    padding: 10px;
+  }
+ .experiencesHero {
+    max-width: 150px;
+  }
+ .experiencesInfo {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+ .experiencesContainer {
+    padding: 5px;
+  }
+ .experiencesHero {
+    max-width: 100px;
+  }
+ .experiencesInfo {
+    gap: 5px;
+  }
+}
+
+
+
+
