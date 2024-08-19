@@ -4,7 +4,7 @@ function Contact() {
   return (
     <section id="contact" className={styles.container}>
       <h1 className="sectionTitle">Contato</h1>
-      <form action="https://formsubmit.co/jopesaraiva0@gmail.com" method="POST">
+      <form action="https://formsubmit.co/jpedrosaraiva1@gmail.com" method="POST">
         <div className="formGroup">
           <label htmlFor="name" hidden>
             Name

@@ -43,7 +43,7 @@ function Hero() {
         </h1>
         <h2>Desenvolvedor de Software</h2>
         <span>
-          <a href="https://github.com/pedrosvr" target="_blank">
+          <a href="https://github.com/jpedrosaraiva" target="_blank">
             <img src={githubIcon} alt="Github icon" />
           </a>
           <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-saraiva/" target="_blank">

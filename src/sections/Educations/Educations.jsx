@@ -27,7 +27,7 @@ function Educations() {
 const educations = [
   {
     id: 1,
-    company: 'Faculdade UniBF',
+    company: 'Faculdade Descomplica UniAmérica',
     title: 'Análise e Desenvolvimento de Sistemas',
     period: '2024.2 - Cursando',
   },
